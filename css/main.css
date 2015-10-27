@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+	
+body{
+	position: relative;
+	padding: 3em 3em;
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.5em;
+	color: #555;
+}
+
+label{
+	color: #333;
+	font-size: 0.75em;
+	display: block;
+	margin: 3em 0 0 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	overflow: visible;
+	position: relative;
+}
+
+label::after{
+	content: "px";
+	text-transform: lowercase;
+	display: block;
+	position: absolute;
+	right: -1.5em;
+	bottom: 1.75em;
+}
+
+input:focus{
+	outline: none;
+	border-bottom-color: #186fda;
+}
+
+input:invalid{
+	border-bottom-color: #d05122
+}
+
+input{
+	font-weight: normal;
+	line-height: 1em;
+	width: 100%;
+	display: block;
+	font-size: 3em;
+	text-align: right;
+	border: none;
+	border-bottom: 2px solid #333;
+}
+
+#resultBox{
+	font-size: 1em;
+	border: 2px solid #333;
+	padding: 1.5em 1em;
+	margin: 3em 0 0;	
+}
+
+#result{
+	font-size: 1em;
+}
+
+#noResult{
+	font-size: 1.2em;
+	font-family: monospace;
+}
+
+.wrap{
+	margin: 0 auto;	
+	max-width: 30em;
+}
+
+.calc{
+	margin: 3em 0 0;
+}
+
+h1,h2{
+	text-transform: uppercase;
+	line-height: 1.5em;
+	color: #333;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+h2{
+	font-size: 1em;
+	margin: 3em 0 0;
+}
+
+h1 a,
+h2 a{
+	color: #333;
+	text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover{
+	text-decoration: underline;
+}
+
+#copyright{
+	display: block;
+	margin: 5em 0 0;
+	width: 100%;
+	text-align: right;
+}
+
+small{
+	font-size: 0.6125em;
+}
