@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Perfect typography</title>
+
+		<meta name="description" content="Website description here.">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+		<link href="/css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<div class="wrap">
+			<h1><a href="/">Perfect typography</a></h1>
+			<h2>The web's first line height calculator</h2>
+			<p>The perfect line-height can be elusive, however with the help of this tool and a bit of experience you should be able to find it in no time.</p>
+				
+			<p>To get the most out of this tool and improve your overall skills, be sure to read up on a few <a href="/web-typography-tips/">web typography tips &raquo;</a>.</p>
+			
+			<div class="calc">
+				<label>
+				Width
+				<input id="width" type="number">
+				</label>
+				
+				<label>
+				Font-size
+				<input id="fontSize" type="number">
+				</label>
+				
+				<noscript>Javascript must be enabled for the calculator to work.</noscript>
+				
+				<div id="resultBox">
+					<p id="noResult">Input at least a width or a font-size to get a recommendation.</p>
+					<pre id="result"></pre>
+				</div>
+				<small> *By using this tool you agree to the <a href="/terms-of-use/">Terms of use</a></small>
+			</div>
+		
+			<small id="copyright">&copy; Armin Cobo, Perfect Typography</small>
+		</div>		
+		
+		<script src="/js/main.js"></script>
+	</body>
+</html>
